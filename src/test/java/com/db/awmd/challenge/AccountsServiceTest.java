@@ -58,7 +58,7 @@ public class AccountsServiceTest {
 	
 
 	@Before
-	public void prepareMockMvc() {
+	public void prepareMockAccounts() {
 		// Reset the existing accounts before each test.
 		accountsService.getAccountsRepository().clearAccounts();
 
